@@ -1,2 +1,0 @@
-if there any hidden subdomains use this
-ffuf -u http://example.com/ -w /usr/share/fuzzDicts/subdomainDicts/main.txt -H "Host:FUZZ.example.com"  -fw 4
